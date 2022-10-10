@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+html{
+    scroll-behavior : smooth;
+}
 
 *{
     margin : 0;
@@ -20,6 +23,8 @@
     align-items : center;
     padding-top : 45px;
 }
+
+
 
 .logo{
     font-size : 35px;
@@ -96,6 +101,46 @@ span, ul li a:hover{
     font-size : 20px;
     font-weight : 600;
     letter-spacing : 1px;
+}
+
+.section .left .search{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    background-color : white;
+    width : 60%;
+    margin-top : 45px;
+    height : 40px;
+    border-radius : 50px;
+    overflow : hidden;
+    padding : 0 5px;
+}
+
+.section .left .search input{
+    margin-left : 10px;
+    font-size : 17px;
+    border : none;
+    width : 60%;
+    font-weight : bold;
+}
+
+.section .left .search input:focus{
+    outline : none;
+}
+
+.btn2{
+    border : none;
+    border-radius : 50px;
+    background-color : #f9004d;
+    padding : 10px 0;
+    color : white;
+    font-weight : bold;
+    width : 35%;
+    transition : box-shadow 0.5s;
+}
+
+.btn2:hover{
+    box-shadow : 0 0 3px 3px #f9004fa0;
 }
 
 .section .right{
