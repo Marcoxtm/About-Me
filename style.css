@@ -351,3 +351,9 @@ footer p:nth-child(2){
    bottom: 35px;
    font-size: 14px;
 }
+
+ @media screen and (max-widht:922px){
+    .contact, aside{
+        width: 100%;
+    }
+ }
